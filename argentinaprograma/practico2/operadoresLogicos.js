@@ -9,5 +9,5 @@ if ((numeroEntero %2) === 0 && numeroEntero >= 0){
 } else if (numeroEntero < 0){
     console.log("El numero es negativo");
 } else if (numeroEntero = 0){
-    console.log("El nuero es cero")
+    console.log("El numero es cero")
 }
