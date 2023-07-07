@@ -8,9 +8,16 @@ const EMPATE = "Empate";
 
 // Jugada computadora
 function obtenerJugadaComputadora(){
-    let piedraPapelTijeras = ["piedra", "papel", "tijeras"];
-let resultado = piedraPapelTijeras[Math.floor(math.random()*3)];
-return resultado;
+let jugadaComputadora = "";
+let resultado = Math.floor(math.random()*3) +1;
+if (resultado ==1){
+    jugadaComputadora = PIEDRA;
+} else if (resultado == 2){
+    jugadaComputadora = PAPEL;
+} else if (resultado == 3){
+    jugadaComputadora = TIJERAS;
+}
+return jugadaComputadora;
 }
 
 // Jugada usuario
