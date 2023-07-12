@@ -54,4 +54,4 @@ function jugarPiedraPapelTijeras(){
 
 // punto 6
 console.log("La computadora eligió: " + obtenerJugadaComputadora() + 
-". El usuario eligió: " + obtenerJugadaUsuario() + ". El resultado fue: "+ determinarGanador() + ".");
+". El usuario eligió: " + obtenerJugadaUsuario() + ". El resultado fue: "+ determinarGanador(computadora, usuario) + ".");
