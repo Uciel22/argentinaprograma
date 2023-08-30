@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="practico2" content="piedra papel o tijera">
+    <title>Piedra Papel o Tijeras</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Piedra, papel o tijera</h1>
+    </header>
+    <main>
+        <p class="instrucciones" id="instrucciones">El primero en llegar a 3 puntos gana.</p>
+        <div class="marcador">
+            <p class="nombre nombre-jugador">Jugador</p>
+            <p class="nombre nombre-computadora">Computadora</p>
+            <p class="puntos">
+                <span id="puntos-usuario">0</span>
+                <span>-</span>
+                <span id="puntos-computadora">0</span>
+            </p>
+        </div>
+        <div class="elegi-tu-arma" id="elegi-tu-arma">
+            <h2>Elegi tu arma para el próximo turno</h2>
+            <div class="armas">
+                <button class="arma" id="piedra✊">✊</button>
+                <button class="arma" id="papel✋">✋</button>
+                <button class="arma" id="tijera✌">✌</button>
+            </div>
+        </div>
+        <div class="mensaje" id="mensaje">
+            <p>
+                Usaste <span class="eleccion" id="eleccion-usuario"></span><br>
+                y la computadora usó <span class="eleccion" id="eleccion-computadora"></span>
+            </p>
+            <p id="gana-punto">¡Ganaste un punto! 🔥</p>
+        </div>
+        <button class="btn disable" id="reiniciar">Reiniciar juego</button>
+    </main>
+    <script type="text/javascript" src="piedraPapelTijeras.js"></script>
+</body>
+</html>
